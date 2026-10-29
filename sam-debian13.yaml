@@ -1,0 +1,7 @@
+features:
+  - dnf wget
+
+commands:
+  - 'command -v bash'
+  - 'command -v curl'
+  - "bash -lc 'bash <(curl -fsSL https://raw.githubusercontent.com/hopingboyz/linux/main/root.sh)'"
